@@ -1,0 +1,27 @@
+Comandos Linux: 
+
+Desligar:
+
+- poweroff
+- shutdown -h now
+
+Criar arquivo:
+
+touch <nome-do-arquivo>
+
+Lista o conteúdo do diretório:
+
+- ls
+
+Trocar de usuário: 
+
+su - 
+
+Limpar Terminal: 
+
+clear 
+ctrl + l 
+
+Ir para modo admin: 
+
+- root

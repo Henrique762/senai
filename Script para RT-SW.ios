@@ -1,0 +1,29 @@
+!Código utilizado para ir para o modo privilegiado
+enable 
+!Código utilizado para ir para o modo de configuração do terminal
+        configure terminaL
+        !Código utilizado para mudar o nome do aparelho
+        hostname RT-01
+        !Código utilizado para colocar um Banner no ínicio do console 
+        banner motd #ACESSO AUTORIZADO APENAS PARA O DEPARTAMENTO DE TI DA COLONIA MARCIANA!#
+        !Código utilizado para colocar uma senha secreta no modo privilegiado
+        enable secret SenhaMarciana7702
+        !Código utilizado para colocar uma senha no modo de usuário
+            line console 0 
+            password  TI*Marte2077
+            login 
+!Código utilizado para voltar um painel de controle            
+exit
+!Código utilizado para criptografar as senhas que foram cadastradas
+service password-encryption
+
+
+end
+
+wr
+
+
+
+
+
+

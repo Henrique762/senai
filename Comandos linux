@@ -27,6 +27,22 @@ pwd: Utilizado para descobrir aonde você está localizado no sistema
 cd: comando utilizado para andar pelo diretório
 cd /: utilizado para mover se para o diretorio root
 
+Comandos para pastas dentro do mnt
+
+mkdir(name) - criar pasta 
+rmdir (name) - apaga uma pasta
+rm - apagar um arquivo 
+ rm -r - apagar uma pasta e todo o conteudo nela
+ -p mkdir - utilizado para criar varias pastas sem ter a pasta de origem 
+ cp (arquivo/pasta de origem) (arquivo/pasta de destino) - copiar arquivo 
+ cp -r - copiar pasta
+ mv (arquivo/pasta de origem) (arquivo/pasta de destino) - move arquivos e pastas 
+ 
+ Instalação de programas no Debian 
+ apt install (Nome do programa) - instalar um programa
+ apt search (nome do programa - procurar um programa 
+ apt update - buscar uma lista atualizada dos programas disponiveis no servidor
+
 Trocar de usuário: 
 
 su - 
@@ -37,5 +53,5 @@ clear
 ctrl + l 
 
 Ir para modo admin: 
+su - - entrar no modo root
 
-- root

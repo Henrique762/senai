@@ -1,4 +1,4 @@
-!Código utilizado para ir para o modo privilegiado
+**!Código utilizado para ir para o modo privilegiado**
 enable 
 !Código utilizado para ir para o modo de configuração do terminal
         configure terminaL

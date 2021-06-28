@@ -88,3 +88,38 @@ Para visualizar o que tem dentro de um arquivo TAR
 senai-sc.tar - 20480 B
 senai-sc.tar.gz - 469 B
 
+/etc - Pasta onde estão as configurações do Linux
+
+/etc/hostname - Armazena o nome do Servidor
+
+/var/log - Pasta onde ficam os logs do sistema
+        auth.log - Armazena informações sobre login dos usuários
+        syslog - Registro dos eventos do sistema
+
+cat - Visualizar o conteúdo de um arquivo de texto
+
+more - Visualizar o arquivo em páginas
+
+    cat [nome-do-arquivo] | more
+
+less - 'more' melhorado
+
+grep - Filtrar o que é exibido na tela
+    cat [nome-do-arquivo] | grep [o-que-procurar]
+
+| - pipe
+
+tail - Visualizar as últimas 10 linhas de um arquivo
+        -f - Monitorando as alterações do arquivo
+
+head - Visualizar as primeiras 10 linhas de um arquivo
+
+Expressão Regular [RegEx]
+    * - Subtituir por qualquer valor
+
+
+PLUS:
+    systemctl restart networking
+
+    reboot - Reinicia o sistema operacional
+

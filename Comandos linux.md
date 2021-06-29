@@ -1,4 +1,6 @@
 # Comandos Linux:
+
+**VER MANUAL**
 ```
 MAN antes dos comandos utilizado para saber oq faz
 ```

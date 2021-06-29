@@ -1,6 +1,7 @@
-Comandos Linux:
-
+# Comandos Linux:
+```
 MAN antes dos comandos utilizado para saber oq faz
+```
 
 ALT+SETINHA + MUDA TTY
 

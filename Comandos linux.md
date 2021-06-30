@@ -23,23 +23,23 @@ touch <nome-do-arquivo>
 
 **Comando de diretório:**
 
-ls: Lista o diretório
-ls -l: lista uma maior exibição dos arquivos.
-ls -r: Lista de Z-A sem o -R listaria de A-Z
-pwd: Utilizado para descobrir aonde você está localizado no sistema
-cd: comando utilizado para andar pelo diretório
-cd /: utilizado para mover se para o diretorio root
+ls: Lista o diretório/
+ls -l: lista uma maior exibição dos arquivos./
+ls -r: Lista de Z-A sem o -R listaria de A-Z/
+pwd: Utilizado para descobrir aonde você está localizado no sistema/
+cd: comando utilizado para andar pelo diretório/
+cd /: utilizado para mover se para o diretorio root/
 
 **Comandos para pastas dentro do mnt**
 
-mkdir(name) - criar pasta 
-rmdir (name) - apaga uma pasta
-rm - apagar um arquivo 
-rm -r - apagar uma pasta e todo o conteudo nela
--p mkdir - utilizado para criar varias pastas sem ter a pasta de origem 
-cp (arquivo/pasta de origem) (arquivo/pasta de destino) - copiar arquivo 
-cp -r - copiar pasta
-mv (arquivo/pasta de origem) (arquivo/pasta de destino) - move arquivos e pastas 
+mkdir(name) - criar pasta/ 
+rmdir (name) - apaga uma pasta/
+rm - apagar um arquivo/ 
+rm -r - apagar uma pasta e todo o conteudo nela/
+-p mkdir - utilizado para criar varias pastas sem ter a pasta de origem/ 
+cp (arquivo/pasta de origem) (arquivo/pasta de destino) - copiar arquivo/ 
+cp -r - copiar pasta/
+mv (arquivo/pasta de origem) (arquivo/pasta de destino) - move arquivos e pastas/ 
  
  **Instalação de programas no Debian**
  
@@ -47,16 +47,17 @@ mv (arquivo/pasta de origem) (arquivo/pasta de destino) - move arquivos e pastas
  apt search (nome do programa - procurar um programa 
  apt update - buscar uma lista atualizada dos programas disponiveis no servidor
 
-Trocar de usuário: 
+**Trocar de usuário:** 
 
 su - 
 
-Limpar Terminal: 
+**Limpar Terminal:** 
 
 clear 
 ctrl + l 
 
-Ir para modo admin: 
+**Ir para modo admin:**
+ 
 su - - entrar no modo root
 ..................................
 

@@ -8,6 +8,7 @@ MAN antes dos comandos utilizado para saber oq faz
 ALT+SETINHA + MUDA TTY
 
 **Comando para mostrar usuario conectados**
+
 WHO
 
 ....................
@@ -69,25 +70,26 @@ GZIP - GNU Zip - Compactar arquivos e pastas no Linux
 
 BZIP2 - Compacta com outro algoritmo, mais lento que o GZIP
 
-Para juntar arquivos ou pastas com o TAR
+**Para juntar arquivos ou pastas com o TAR**
     tar -cvf [nome-do-arquivo-novo] [aquivos/pasta a ser juntado]
 
         -c - Create
 
-Para juntar um arquivo ou pasta com o TAR e compactar com o GZIP
+**Para juntar um arquivo ou pasta com o TAR e compactar com o GZIP**
     tar -cvzf [nome-do-arquivo-novo] [aquivos/pasta a ser juntado]
 
-Para juntar um arquivo ou pasta com o TAR e compactar com o BZIP2
+**Para juntar um arquivo ou pasta com o TAR e compactar com o BZIP2**
     tar -cvjf [nome-do-arquivo-novo] [aquivos/pasta a ser juntado]
 
-Para extrair um arquivo - TAR - GZIP - BZIP2
+**Para extrair um arquivo - TAR - GZIP - BZIP2**
     tar -xvf [nome-do-arquivo]
 
         -x - Extrair
         -v - Verbose [Verbalizar]
         -f - FILE
 
-Para visualizar o que tem dentro de um arquivo TAR 
+**Para visualizar o que tem dentro de um arquivo TAR** 
+ 
     tar -tvf [nome-do-arquivo]
 
 senai-sc.tar - 20480 B
@@ -127,7 +129,9 @@ PLUS:
     systemctl restart networking
 
     reboot - Reinicia o sistema operacional
- Editor de Texto no Terminal
+ 
+ **Editor de Texto no Terminal**
+ 
     VIM
         Versão melhorado do 'vi'
 

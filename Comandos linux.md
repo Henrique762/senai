@@ -194,4 +194,40 @@ PLUS:
         ^X - Ctrl + X - Sair do Nano
         M-U - Alt + U - Desfaz a última alteração
  
+ #Criação de grupos
+ 
+ **COMANDOS**
+ 
+        addgroup [nome-do-grupo] - Criar um grupo
+
+        delgroup [nome-do-grupo] - Deletar um grupo
+
+        GID - Group ID - Identificação do Grupo
+
+        0 - 1000 -> Reservados pelo sistema
+
+    ARQUIVO
+ 
+        /etc/group - Arquivo armazena os grupos no Linux
+
+Usuário
+
+    COMANDOS
+ 
+        adduser [nome-do-usuário] - Criar um usuário
+        adduser [nome-do-usuário] [nome-do-grupo] - Adicionar um usuário ao grupo
+
+        deluser [nome-do-usuário] - Deletar um usuário
+        deluser [nome-do-usuário] [nome-do-grupo] - Remover um usuário do grupo
+
+        UID - User ID - Identificação do Usuário
+
+        id [nome-do-usuário] - Verifica informações sobre o usuário
+
+    ARQUIVO
+ 
+        /etc/passwd - Armazenado os usuários do Linux
+        /etc/shadow - Armazenado as senhas dos usuários
+                SHA-256 --> 256 bits
+                SHA-512 --> 512 bits
 

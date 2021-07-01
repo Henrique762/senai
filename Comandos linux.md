@@ -40,7 +40,7 @@ rm -r - apagar uma pasta e todo o conteudo nela/
 -p mkdir - utilizado para criar varias pastas sem ter a pasta de origem/ 
 cp (arquivo/pasta de origem) (arquivo/pasta de destino) - copiar arquivo/ 
 cp -r - copiar pasta/
-mv (arquivo/pasta de origem) (arquivo/pasta de destino) - move arquivos e pastas/ 
+mv (arquivo/pasta de origem) (arquivo/pasta de destino) - move arquivos e pastas/... Renomear arquivos: Nome do arquivo - Novo nome do arquivo
  
  **Instalação de programas no Debian**
  

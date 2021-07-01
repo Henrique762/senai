@@ -230,4 +230,46 @@ Usuário
         /etc/shadow - Armazenado as senhas dos usuários
                 SHA-256 --> 256 bits
                 SHA-512 --> 512 bits
+ 
+ d rwx r-x r-x root root  jun 25 17:25 colonia-marciana
+
+Tipos de Arquivos e Pastas
+    - -> Arquivo
+    d -> Diretório/Pasta
+    l -> Link/Atalho
+
+    b -> Bloco de Dados
+    c -> Caractere
+    s -> Socket [comunição entre processos]
+
+Permissões
+    r - Read [Leitura] - 4
+    w - Write [Escrita] - 2
+    x - Execute [Execução]] - 1
+
+COMANDOS
+    chmod - Comando para alterar permissões de pasta/arquivos
+
+        chmod [nº-da-permissão] [pasta/arquivo]
+
+     Octal
+        7    -> rwx
+        6    -> rw-
+        5    -> r-x
+        4    -> r--
+        3    -> -wx
+        2    -> -w-
+        1    -> --x
+        0    -> ---
+
+    chgrp - Comando para alterar o GRUPO DONO da pasta/arquivo
+
+        chgrp [nome-do-grupo] [pasta/arquivo]
+
+    chown - Comando para alterar o USUÁRIO DONO da pasta/arquivo
+
+        chown [nome-do-usuário] [pasta/arquivo]
+
+PESQUISAR
+Como alterar o grupo dono e o usuário dono de uma pasta de uma vez só?
 

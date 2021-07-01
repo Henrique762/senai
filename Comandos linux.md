@@ -271,5 +271,5 @@ COMANDOS
         chown [nome-do-usuário] [pasta/arquivo]
 
 PESQUISAR
-Como alterar o grupo dono e o usuário dono de uma pasta de uma vez só?
+Como alterar o grupo dono e o usuário dono de uma pasta de uma vez só? Comando chown (Usuário dono):(Grupo dono) (arquivo)
 

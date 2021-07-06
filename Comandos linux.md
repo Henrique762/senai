@@ -25,11 +25,15 @@ touch <nome-do-arquivo>
 **Comando de diretório:**
 
 ls: Lista o diretório/
-ls -l: lista uma maior exibição dos arquivos./
-ls -r: Lista de Z-A sem o -R listaria de A-Z/
-pwd: Utilizado para descobrir aonde você está localizado no sistema/
-cd: comando utilizado para andar pelo diretório/
-cd /: utilizado para mover se para o diretorio root/
+ls -l: lista uma maior exibição dos arquivos.
+ 
+ls -r: Lista de Z-A sem o -R listaria de A-Z
+ 
+pwd: Utilizado para descobrir aonde você está localizado no sistema
+ 
+cd: comando utilizado para andar pelo diretório
+ 
+cd /: utilizado para mover se para o diretorio root
 
 **Comandos para pastas dentro do mnt**
 

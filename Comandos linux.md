@@ -37,7 +37,7 @@ cd /: utilizado para mover se para o diretorio root
 
 **Comandos para pastas dentro do mnt**
 
-mkdir(name) - criar pasta/ 
+mkdir(name) - criar pasta
 rmdir (name) - apaga uma pasta/
 rm - apagar um arquivo/ 
 rm -r - apagar uma pasta e todo o conteudo nela/

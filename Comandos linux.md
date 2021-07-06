@@ -38,6 +38,7 @@ pwd: Utilizado para descobrir aonde você está localizado no sistema
 cd: comando utilizado para andar pelo diretório
  
 cd /: utilizado para mover se para o diretorio root
+ 
 
 **Comandos para pastas dentro do mnt**
  
@@ -78,6 +79,7 @@ ctrl + l
 su - - entrar no modo root
 ..................................
 
+ 
 wget - Baixar um arquivo da internet [HTTP]
 
 TAR - Programa utilizado no Linux, juntar pastas e arquivos
@@ -330,4 +332,68 @@ SIMBOLOS
 
     >> - Pega a saída de um comando e salva para um arquivo de texto, porém mantém o conteúdo do arquivo
             df -h / >> tamanho-do-barra.txt
+ 
+ # Aula 84 -
+
+1° Identificar -
+ comando pra visualizar interfaces de rede do Linux: ip add
+
+1° linha é o nome da interface de rede
+TX - quanto vc manda
+RX - quanto vc recebe 
+
+
+1° interface lo: loopback 
+
+enp0s3 - interface NAT (que acessa a internet) 
+
+link/ether - mac address 
+
+inet - ip 
+brd - broadcast
+inet6 - ipv6 
+
+o ifconfig faz parte de um pacote chamado 'net-tools' 
+tem que instalar! 
+apt install net-tools
+
+ifconfig - só mostra interfaces configuradas
+ip add - mostra todas
+ifconfig -a - mostra todas (estando ou não configuradas)
+
+Arquivo onde estão as configurações das interfaces: 
+
+/etc/network/interfaces (só DO DEBIAN) 
+
+
+
+Criar host-only - configurando 
+
+# - comentários 
+allow-hotplug - tirar o cabo e colocar dnv
+auto-hotplug - configura automaticamente 
+
+Configurar inet: static 
+auto enp0s
+iface [nome-da-interface] inet [modo] 
+			DHCP OU STATIC
+
+ex: iface enp0s inet static 
+
+configurar ip: address [IP]
+address 192.168.56.10/24
+
+configurar máscara: o que não precisar 
+netmask [máscara] 
+
+configurar gateway: 
+gateway [gateway] 
+
+systemctl - controlador de processos 
+	systemctl restart  [serviço] - para e inicia o serviço 
+	system ctl reload [serviço] - atualiza configurações
+	systemctl start [serviço] - inicia 
+	systemctl restart [serviço] - reinicia 
+
+journalctl -xe - 
 

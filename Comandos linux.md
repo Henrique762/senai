@@ -20,6 +20,7 @@ WHO
 
 **Criar arquivo:**
 
+
 touch <nome-do-arquivo>
 
 **Comando de diretório:**
@@ -39,6 +40,7 @@ cd: comando utilizado para andar pelo diretório
 cd /: utilizado para mover se para o diretorio root
 
 **Comandos para pastas dentro do mnt**
+ 
 
 mkdir(name) - criar pasta
  

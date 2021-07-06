@@ -25,6 +25,9 @@ touch <nome-do-arquivo>
 **Comando de diretório:**
 
 ls: Lista o diretório/
+
+ls -lR: lista todos os diretórios de uma vez
+ 
 ls -l: lista uma maior exibição dos arquivos.
  
 ls -r: Lista de Z-A sem o -R listaria de A-Z

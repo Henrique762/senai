@@ -367,7 +367,7 @@ Arquivo onde estão as configurações das interfaces:
 
 
 
-Criar host-only - configurando 
+# Criar host-only - configurando 
 
 # - comentários 
 allow-hotplug - tirar o cabo e colocar dnv

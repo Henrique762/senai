@@ -395,5 +395,30 @@ systemctl - controlador de processos
 	systemctl start [serviço] - inicia 
 	systemctl restart [serviço] - reinicia 
 
-journalctl -xe - 
+journalctl -xe -
+	
+Abrir o Firewall do Windows
+    Windows + R
+    firewall.cpl
+
+Instalar o Servidor de SSH no Debian
+    apt install openssh-server
+
+Verificar se o Serviço de SSH está rodando
+    systemctl status ssh
+
+Reiniciar o serviço de SSH
+    systemctl restart ssh
+    systemctl reload ssh
+
+Visualizar quem está logado no momento dentro do Servidor
+    who
+    who -u - Informações detalhadas
+
+Porta TCP padrão do SSH - 22
+
+Por padrão o usuário ROOT não pode ser usado para login através do SSH
+
+ARQUIVO
+    /etc/ssh/sshd_config - Arquivo de configuração do SSH no Debian
 

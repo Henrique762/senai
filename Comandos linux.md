@@ -64,6 +64,7 @@ mv (arquivo/pasta de origem) (arquivo/pasta de destino) - move arquivos e pastas
  apt install (Nome do programa) - instalar um programa
  apt search (nome do programa - procurar um programa 
  apt update - buscar uma lista atualizada dos programas disponiveis no servidor
+ Um administrador pode executar o comando apt-get remove para remover um pacote ou o comando apt-get purge para limpar um pacote completamente do sistema.
 
 **Trocar de usuário:** 
 

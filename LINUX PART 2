@@ -4,3 +4,7 @@ PID: O identificador do processo, que é exclusivo para o processo. Esta informa
 TTY: O nome do terminal em que o processo está sendo executado. Esta informação é útil para distinguir entre diferentes processos que têm o mesmo nome.
 TIME: A quantidade total de tempo do processador usado pelo processo. Normalmente, essas informações não são usadas por usuários comuns.
 CMD: O comando que iniciou o processo.
+
+TROCAR SENHA DE USUÁRIOS
+
+Execute o comando passwd. Você será solicitado a inserir a senha existente uma vez e a nova senha duas vezes. Por razões de segurança, nenhuma saída é exibida enquanto a senha está sendo digitada.

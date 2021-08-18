@@ -1,0 +1,21 @@
+!Vlan
+vlan 10
+name CONTROLE
+VLAN 20
+NAME ESTUFA
+vlan 30 
+name INDUSTRIAL
+vlan 40 
+name TERRA
+vlan 50
+name SERVIDORES 
+vlan 60 
+name GERENCIAMENTO
+
+!TRUNK E NATIVE NAS VLANS QUE NECESSITAM
+interface g0/1
+switchport mode trunk
+switchport trunk native vlan 99
+switchport trunk allowed vlan 10,20,30,40,50,60,99
+
+

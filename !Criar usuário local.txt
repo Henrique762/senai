@@ -1,0 +1,27 @@
+!Criar usuário local
+enable
+conf t
+username suporte-marte privilege 15 secret suporte@123
+
+!Ativar login local na Console 
+enable 
+configure terminaL
+line console 0
+login local
+
+!Ativar o SSH nas linhas de VTY
+enable
+conf terminaL
+line vty 0 15
+transport input SSH
+login local 
+
+!Ativar ip no SW
+configure terminaL
+interface vlan 60
+ip address 192.168.0.234 255.255.255.240
+
+end
+wr
+
+

@@ -1,0 +1,11 @@
+!Definir nome de domínio 
+enable 
+configure terminal 
+ip domain-name coloniamarciana.local
+
+!Definir chave de criptografia
+enable 
+conf t
+crypto key generate rsa general-keys modulus 1024
+
+!

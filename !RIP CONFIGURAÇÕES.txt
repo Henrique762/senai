@@ -1,0 +1,36 @@
+!RIP CONFIGURAÇÕES
+enable
+    conf t
+    router RIP
+    version 2
+    network (Redes q o router participa)
+
+!Não juntar redes na tabela de Roteamento    
+    no auto-summary
+!Não gastar processamento e memoria    
+    passive-interface g0/0/0
+
+!Adicionar largura de banda na interface
+enable
+    conf t
+    int s0/1/1 (DCE)
+    clock rate Mb
+
+!CONFIG OSPF
+en 
+    conf terminaL
+    router ospf 20
+
+!Conf do Id do Roteador fixo     
+        router-id 1.1.1.1
+        network area Ip e wild card | area 0 PARA REDES EM BACKBONE 1 PARA CIMA REDE LOCAIS
+
+!Comando utilizado para tornar o roteador o principal conectado com a internet
+default-originate
+        
+
+!Não gastar processamento e memoria       
+        passive-interface g0/0/0
+
+
+

@@ -1,0 +1,15 @@
+!Adicionar o IP NA INTERFACE DO SW
+>enable
+#configure terminal
+(config)#interface vlan 90
+(config-if)#ip address <endereço> <máscara>
+
+!Ativar o Roteamento IPV6 NO ROUTER
+>enable
+#configure terminal
+(config)#ipv6 unicast-routing
+
+!Ativar rota estática no Router
+>enable
+#configure terminal
+(config)#ip route <id-da-rede-de-destino> <máscara-da-rede-de-destino> <ip-do-roteador-que-conhece-a-rede>
